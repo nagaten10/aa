@@ -1,7 +1,7 @@
 'use strict';
 
 //同じ日付で2回目以降ならローディング画面非表示の設定
-
+document.cookie = "value=;";
 var splash_text = $cookie('accessdate'); //キーが入っていれば年月日を取得
 var myD = new Date();//日付データを取得
 var myYear = String(myD.getFullYear());//年
